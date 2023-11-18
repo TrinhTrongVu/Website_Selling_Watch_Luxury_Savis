@@ -1,14 +1,14 @@
-package com.watch_luxury.application.service.impl;
+package com.watchluxury.application.service.impl;
 
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.model.dto.UserDTO;
-import com.watch_luxury.application.model.mapper.UserMapper;
-import com.watch_luxury.application.model.request.ChangePasswordRequest;
-import com.watch_luxury.application.model.request.CreateUserRequest;
-import com.watch_luxury.application.model.request.UpdateProfileRequest;
-import com.watch_luxury.application.repository.UserRepository;
-import com.watch_luxury.application.service.UserService;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.model.dto.UserDTO;
+import com.watchluxury.application.model.mapper.UserMapper;
+import com.watchluxury.application.model.request.ChangePasswordRequest;
+import com.watchluxury.application.model.request.CreateUserRequest;
+import com.watchluxury.application.model.request.UpdateProfileRequest;
+import com.watchluxury.application.repository.UserRepository;
+import com.watchluxury.application.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.watch_luxury.application.config.Contant.LIMIT_USER;
+import static com.watchluxury.application.config.Contant.LIMIT_USER;
 
 @Component
 public class UserServiceImpl implements UserService {

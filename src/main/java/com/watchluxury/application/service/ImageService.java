@@ -1,6 +1,6 @@
-package com.watch_luxury.application.service;
+package com.watchluxury.application.service;
 
-import com.watch_luxury.application.entity.Image;
+import com.watchluxury.application.entity.Image;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package com.watch_luxury.application.service;
+package com.watchluxury.application.service;
 
-import com.watch_luxury.application.entity.Post;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.model.dto.PageableDTO;
-import com.watch_luxury.application.model.request.CreatePostRequest;
+import com.watchluxury.application.entity.Post;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.model.dto.PageableDTO;
+import com.watchluxury.application.model.request.CreatePostRequest;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 

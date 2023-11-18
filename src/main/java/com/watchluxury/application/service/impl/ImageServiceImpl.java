@@ -1,10 +1,10 @@
-package com.watch_luxury.application.service.impl;
+package com.watchluxury.application.service.impl;
 
-import com.watch_luxury.application.entity.Image;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.exception.InternalServerException;
-import com.watch_luxury.application.repository.ImageRepository;
-import com.watch_luxury.application.service.ImageService;
+import com.watchluxury.application.entity.Image;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.exception.InternalServerException;
+import com.watchluxury.application.repository.ImageRepository;
+import com.watchluxury.application.service.ImageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
