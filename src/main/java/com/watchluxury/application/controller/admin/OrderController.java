@@ -1,19 +1,19 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.Order;
-import com.watch_luxury.application.entity.Promotion;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.model.dto.OrderDetailDTO;
-import com.watch_luxury.application.model.dto.OrderInfoDTO;
-import com.watch_luxury.application.model.dto.ShortProductInfoDTO;
-import com.watch_luxury.application.model.request.CreateOrderRequest;
-import com.watch_luxury.application.model.request.UpdateDetailOrder;
-import com.watch_luxury.application.model.request.UpdateStatusOrderRequest;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.service.OrderService;
-import com.watch_luxury.application.service.ProductService;
-import com.watch_luxury.application.service.PromotionService;
+import com.watchluxury.application.entity.Order;
+import com.watchluxury.application.entity.Promotion;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.model.dto.OrderDetailDTO;
+import com.watchluxury.application.model.dto.OrderInfoDTO;
+import com.watchluxury.application.model.dto.ShortProductInfoDTO;
+import com.watchluxury.application.model.request.CreateOrderRequest;
+import com.watchluxury.application.model.request.UpdateDetailOrder;
+import com.watchluxury.application.model.request.UpdateStatusOrderRequest;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.service.OrderService;
+import com.watchluxury.application.service.ProductService;
+import com.watchluxury.application.service.PromotionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-import static com.watch_luxury.application.config.Contant.*;
+import static com.watchluxury.application.config.Contant.*;
 
 @Controller
 public class OrderController {

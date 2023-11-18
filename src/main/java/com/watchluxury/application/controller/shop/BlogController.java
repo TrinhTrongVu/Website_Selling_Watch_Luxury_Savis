@@ -1,7 +1,7 @@
-package com.watch_luxury.application.controller.shop;
+package com.watchluxury.application.controller.shop;
 
-import com.watch_luxury.application.entity.Post;
-import com.watch_luxury.application.service.PostService;
+import com.watchluxury.application.entity.Post;
+import com.watchluxury.application.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;

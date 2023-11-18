@@ -1,11 +1,11 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.Post;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.model.request.CreatePostRequest;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.service.ImageService;
-import com.watch_luxury.application.service.PostService;
+import com.watchluxury.application.entity.Post;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.model.request.CreatePostRequest;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.service.ImageService;
+import com.watchluxury.application.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

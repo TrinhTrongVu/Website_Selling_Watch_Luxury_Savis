@@ -1,11 +1,11 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.Image;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.exception.InternalServerException;
-import com.watch_luxury.application.exception.NotFoundException;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.service.ImageService;
+import com.watchluxury.application.entity.Image;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.exception.InternalServerException;
+import com.watchluxury.application.exception.NotFoundException;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.service.ImageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.UrlResource;
 import org.springframework.http.HttpHeaders;
