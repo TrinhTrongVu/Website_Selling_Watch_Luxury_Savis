@@ -34,8 +34,6 @@ public interface ProductSizeRepository extends JpaRepository<ProductSize,Long> {
     @Query(nativeQuery = true, value = "Update product_size set quantity = quantity + 1 where product_id = ?1 and size = ?2")
     public void plusOneProductBySize(String id, int size);
 
-//    @Query(value = "SELECT * FROM product_size ps WHERE ps.size = ?1 AND ps.product_id = ?2",nativeQuery = true)
-//    Optional<ProductSize> getProductSizeBySize(int size,String productId);
 
     @Transactional
     @Modifying
