@@ -1,6 +1,7 @@
 package com.watchluxury.application.entity;
 
 import com.vladmihalcea.hibernate.type.json.JsonStringType;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

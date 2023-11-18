@@ -1,8 +1,8 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.Promotion;
-import com.watch_luxury.application.model.request.CreatePromotionRequest;
-import com.watch_luxury.application.service.PromotionService;
+import com.watchluxury.application.entity.Promotion;
+import com.watchluxury.application.model.request.CreatePromotionRequest;
+import com.watchluxury.application.service.PromotionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

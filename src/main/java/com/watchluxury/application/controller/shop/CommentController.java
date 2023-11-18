@@ -1,11 +1,11 @@
-package com.watch_luxury.application.controller.shop;
+package com.watchluxury.application.controller.shop;
 
-import com.watch_luxury.application.entity.Comment;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.model.request.CreateCommentPostRequest;
-import com.watch_luxury.application.model.request.CreateCommentProductRequest;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.service.CommentService;
+import com.watchluxury.application.entity.Comment;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.model.request.CreateCommentPostRequest;
+import com.watchluxury.application.model.request.CreateCommentProductRequest;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;

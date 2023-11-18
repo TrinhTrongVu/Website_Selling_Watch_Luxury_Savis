@@ -1,9 +1,9 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.Category;
-import com.watch_luxury.application.model.mapper.CategoryMapper;
-import com.watch_luxury.application.model.request.CreateCategoryRequest;
-import com.watch_luxury.application.service.CategoryService;
+import com.watchluxury.application.entity.Category;
+import com.watchluxury.application.model.mapper.CategoryMapper;
+import com.watchluxury.application.model.request.CreateCategoryRequest;
+import com.watchluxury.application.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

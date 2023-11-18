@@ -1,19 +1,19 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.*;
-import com.watch_luxury.application.entity.Brand;
-import com.watch_luxury.application.entity.Category;
-import com.watch_luxury.application.entity.Product;
-import com.watch_luxury.application.entity.ProductSize;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.model.request.CreateProductRequest;
-import com.watch_luxury.application.model.request.CreateSizeCountRequest;
-import com.watch_luxury.application.model.request.UpdateFeedBackRequest;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.service.BrandService;
-import com.watch_luxury.application.service.CategoryService;
-import com.watch_luxury.application.service.ImageService;
-import com.watch_luxury.application.service.ProductService;
+import com.watchluxury.application.entity.*;
+import com.watchluxury.application.entity.Brand;
+import com.watchluxury.application.entity.Category;
+import com.watchluxury.application.entity.Product;
+import com.watchluxury.application.entity.ProductSize;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.model.request.CreateProductRequest;
+import com.watchluxury.application.model.request.CreateSizeCountRequest;
+import com.watchluxury.application.model.request.UpdateFeedBackRequest;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.service.BrandService;
+import com.watchluxury.application.service.CategoryService;
+import com.watchluxury.application.service.ImageService;
+import com.watchluxury.application.service.ProductService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CreationHelper;
@@ -34,7 +34,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.util.List;
 
-import static com.watch_luxury.application.config.Contant.SIZE_VN;
+import static com.watchluxury.application.config.Contant.SIZE_VN;
 
 @Slf4j
 @Controller

@@ -1,28 +1,28 @@
-package com.watch_luxury.application.controller.shop;
+package com.watchluxury.application.controller.shop;
 
-import com.watch_luxury.application.entity.*;
-import com.watch_luxury.application.entity.Brand;
-import com.watch_luxury.application.entity.Category;
-import com.watch_luxury.application.entity.Order;
-import com.watch_luxury.application.entity.Post;
-import com.watch_luxury.application.entity.Promotion;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.exception.NotFoundException;
-import com.watch_luxury.application.model.dto.CheckPromotion;
-import com.watch_luxury.application.model.dto.DetailProductInfoDTO;
-import com.watch_luxury.application.model.dto.PageableDTO;
-import com.watch_luxury.application.model.dto.ProductInfoDTO;
-import com.watch_luxury.application.model.request.CreateOrderRequest;
-import com.watch_luxury.application.model.request.FilterProductRequest;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.service.*;
-import com.watch_luxury.application.service.BrandService;
-import com.watch_luxury.application.service.CategoryService;
-import com.watch_luxury.application.service.OrderService;
-import com.watch_luxury.application.service.PostService;
-import com.watch_luxury.application.service.ProductService;
-import com.watch_luxury.application.service.PromotionService;
+import com.watchluxury.application.entity.*;
+import com.watchluxury.application.entity.Brand;
+import com.watchluxury.application.entity.Category;
+import com.watchluxury.application.entity.Order;
+import com.watchluxury.application.entity.Post;
+import com.watchluxury.application.entity.Promotion;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.exception.NotFoundException;
+import com.watchluxury.application.model.dto.CheckPromotion;
+import com.watchluxury.application.model.dto.DetailProductInfoDTO;
+import com.watchluxury.application.model.dto.PageableDTO;
+import com.watchluxury.application.model.dto.ProductInfoDTO;
+import com.watchluxury.application.model.request.CreateOrderRequest;
+import com.watchluxury.application.model.request.FilterProductRequest;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.service.*;
+import com.watchluxury.application.service.BrandService;
+import com.watchluxury.application.service.CategoryService;
+import com.watchluxury.application.service.OrderService;
+import com.watchluxury.application.service.PostService;
+import com.watchluxury.application.service.ProductService;
+import com.watchluxury.application.service.PromotionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,7 +35,7 @@ import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.watch_luxury.application.config.Contant.*;
+import static com.watchluxury.application.config.Contant.*;
 
 @Controller
 public class HomeController {

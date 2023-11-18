@@ -1,12 +1,12 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.Brand;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.model.mapper.BrandMapper;
-import com.watch_luxury.application.model.request.CreateBrandRequest;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.service.BrandService;
-import com.watch_luxury.application.service.ImageService;
+import com.watchluxury.application.entity.Brand;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.model.mapper.BrandMapper;
+import com.watchluxury.application.model.request.CreateBrandRequest;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.service.BrandService;
+import com.watchluxury.application.service.ImageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

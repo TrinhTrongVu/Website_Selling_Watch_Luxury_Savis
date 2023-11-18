@@ -1,7 +1,7 @@
-package com.watch_luxury.application.controller.admin;
+package com.watchluxury.application.controller.admin;
 
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.service.UserService;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

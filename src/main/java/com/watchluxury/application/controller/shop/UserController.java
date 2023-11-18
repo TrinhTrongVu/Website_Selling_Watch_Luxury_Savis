@@ -1,16 +1,16 @@
-package com.watch_luxury.application.controller.shop;
+package com.watchluxury.application.controller.shop;
 
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.model.dto.UserDTO;
-import com.watch_luxury.application.model.mapper.UserMapper;
-import com.watch_luxury.application.model.request.ChangePasswordRequest;
-import com.watch_luxury.application.model.request.CreateUserRequest;
-import com.watch_luxury.application.model.request.LoginRequest;
-import com.watch_luxury.application.model.request.UpdateProfileRequest;
-import com.watch_luxury.application.security.CustomUserDetails;
-import com.watch_luxury.application.security.JwtTokenUtil;
-import com.watch_luxury.application.service.UserService;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.model.dto.UserDTO;
+import com.watchluxury.application.model.mapper.UserMapper;
+import com.watchluxury.application.model.request.ChangePasswordRequest;
+import com.watchluxury.application.model.request.CreateUserRequest;
+import com.watchluxury.application.model.request.LoginRequest;
+import com.watchluxury.application.model.request.UpdateProfileRequest;
+import com.watchluxury.application.security.CustomUserDetails;
+import com.watchluxury.application.security.JwtTokenUtil;
+import com.watchluxury.application.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -30,7 +30,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.util.List;
 
-import static com.watch_luxury.application.config.Contant.MAX_AGE_COOKIE;
+import static com.watchluxury.application.config.Contant.MAX_AGE_COOKIE;
 
 @Controller
 public class UserController {
