@@ -1,11 +1,11 @@
-package com.watch_luxury.application.service;
+package com.watchluxury.application.service;
 
 
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.model.dto.UserDTO;
-import com.watch_luxury.application.model.request.ChangePasswordRequest;
-import com.watch_luxury.application.model.request.CreateUserRequest;
-import com.watch_luxury.application.model.request.UpdateProfileRequest;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.model.dto.UserDTO;
+import com.watchluxury.application.model.request.ChangePasswordRequest;
+import com.watchluxury.application.model.request.CreateUserRequest;
+import com.watchluxury.application.model.request.UpdateProfileRequest;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 

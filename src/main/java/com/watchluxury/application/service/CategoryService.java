@@ -1,7 +1,7 @@
-package com.watch_luxury.application.service;
+package com.watchluxury.application.service;
 
-import com.watch_luxury.application.entity.Category;
-import com.watch_luxury.application.model.request.CreateCategoryRequest;
+import com.watchluxury.application.entity.Category;
+import com.watchluxury.application.model.request.CreateCategoryRequest;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 

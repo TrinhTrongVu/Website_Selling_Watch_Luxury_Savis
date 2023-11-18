@@ -1,17 +1,17 @@
-package com.watch_luxury.application.service.impl;
+package com.watchluxury.application.service.impl;
 
 import com.github.slugify.Slugify;
-import com.watch_luxury.application.entity.Post;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.exception.InternalServerException;
-import com.watch_luxury.application.exception.NotFoundException;
-import com.watch_luxury.application.model.dto.PageableDTO;
-import com.watch_luxury.application.model.dto.PostDTO;
-import com.watch_luxury.application.model.request.CreatePostRequest;
-import com.watch_luxury.application.repository.PostRepository;
-import com.watch_luxury.application.service.PostService;
-import com.watch_luxury.application.utils.PageUtil;
+import com.watchluxury.application.entity.Post;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.exception.InternalServerException;
+import com.watchluxury.application.exception.NotFoundException;
+import com.watchluxury.application.model.dto.PageableDTO;
+import com.watchluxury.application.model.dto.PostDTO;
+import com.watchluxury.application.model.request.CreatePostRequest;
+import com.watchluxury.application.repository.PostRepository;
+import com.watchluxury.application.service.PostService;
+import com.watchluxury.application.utils.PageUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -23,7 +23,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
 
-import static com.watch_luxury.application.config.Contant.*;
+import static com.watchluxury.application.config.Contant.*;
 
 @Component
 public class PostServiceImpl implements PostService {

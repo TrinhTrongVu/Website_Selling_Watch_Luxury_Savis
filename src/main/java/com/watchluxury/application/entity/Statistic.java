@@ -1,6 +1,6 @@
-package com.watch_luxury.application.entity;
+package com.watchluxury.application.entity;
 
-import com.watch_luxury.application.model.dto.StatisticDTO;
+import com.watchluxury.application.model.dto.StatisticDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

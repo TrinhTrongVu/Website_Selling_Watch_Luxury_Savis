@@ -1,8 +1,8 @@
-package com.watch_luxury.application.model.mapper;
+package com.watchluxury.application.model.mapper;
 
-import com.watch_luxury.application.entity.Brand;
-import com.watch_luxury.application.model.dto.BrandDTO;
-import com.watch_luxury.application.model.request.CreateBrandRequest;
+import com.watchluxury.application.entity.Brand;
+import com.watchluxury.application.model.dto.BrandDTO;
+import com.watchluxury.application.model.request.CreateBrandRequest;
 
 import java.sql.Timestamp;
 

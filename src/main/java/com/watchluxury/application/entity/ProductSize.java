@@ -1,4 +1,4 @@
-package com.watch_luxury.application.entity;
+package com.watchluxury.application.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

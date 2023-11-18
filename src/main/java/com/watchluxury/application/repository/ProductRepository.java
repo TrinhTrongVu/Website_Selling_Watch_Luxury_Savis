@@ -1,9 +1,9 @@
-package com.watch_luxury.application.repository;
+package com.watchluxury.application.repository;
 
-import com.watch_luxury.application.entity.Product;
-import com.watch_luxury.application.model.dto.ChartDTO;
-import com.watch_luxury.application.model.dto.ProductInfoDTO;
-import com.watch_luxury.application.model.dto.ShortProductInfoDTO;
+import com.watchluxury.application.entity.Product;
+import com.watchluxury.application.model.dto.ChartDTO;
+import com.watchluxury.application.model.dto.ProductInfoDTO;
+import com.watchluxury.application.model.dto.ShortProductInfoDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

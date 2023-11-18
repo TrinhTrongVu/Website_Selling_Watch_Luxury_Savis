@@ -1,4 +1,4 @@
-package com.watch_luxury.application.entity;
+package com.watchluxury.application.entity;
 
 import com.vladmihalcea.hibernate.type.json.JsonStringType;
 import lombok.AllArgsConstructor;

@@ -1,8 +1,8 @@
-package com.watch_luxury.application.service;
+package com.watchluxury.application.service;
 
-import com.watch_luxury.application.entity.Comment;
-import com.watch_luxury.application.model.request.CreateCommentPostRequest;
-import com.watch_luxury.application.model.request.CreateCommentProductRequest;
+import com.watchluxury.application.entity.Comment;
+import com.watchluxury.application.model.request.CreateCommentPostRequest;
+import com.watchluxury.application.model.request.CreateCommentProductRequest;
 import org.springframework.stereotype.Service;
 
 @Service

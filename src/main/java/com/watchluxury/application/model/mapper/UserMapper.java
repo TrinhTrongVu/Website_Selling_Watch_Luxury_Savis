@@ -1,8 +1,8 @@
-package com.watch_luxury.application.model.mapper;
+package com.watchluxury.application.model.mapper;
 
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.model.dto.UserDTO;
-import com.watch_luxury.application.model.request.CreateUserRequest;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.model.dto.UserDTO;
+import com.watchluxury.application.model.request.CreateUserRequest;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
 import java.sql.Timestamp;

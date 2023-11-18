@@ -1,7 +1,7 @@
-package com.watch_luxury.application.repository;
+package com.watchluxury.application.repository;
 
-import com.watch_luxury.application.entity.Statistic;
-import com.watch_luxury.application.model.dto.StatisticDTO;
+import com.watchluxury.application.entity.Statistic;
+import com.watchluxury.application.model.dto.StatisticDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

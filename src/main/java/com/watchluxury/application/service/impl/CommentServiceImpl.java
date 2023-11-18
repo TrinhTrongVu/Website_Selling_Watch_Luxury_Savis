@@ -1,14 +1,14 @@
-package com.watch_luxury.application.service.impl;
+package com.watchluxury.application.service.impl;
 
-import com.watch_luxury.application.entity.Comment;
-import com.watch_luxury.application.entity.Post;
-import com.watch_luxury.application.entity.Product;
-import com.watch_luxury.application.entity.User;
-import com.watch_luxury.application.exception.InternalServerException;
-import com.watch_luxury.application.model.request.CreateCommentPostRequest;
-import com.watch_luxury.application.model.request.CreateCommentProductRequest;
-import com.watch_luxury.application.repository.CommentRepository;
-import com.watch_luxury.application.service.CommentService;
+import com.watchluxury.application.entity.Comment;
+import com.watchluxury.application.entity.Post;
+import com.watchluxury.application.entity.Product;
+import com.watchluxury.application.entity.User;
+import com.watchluxury.application.exception.InternalServerException;
+import com.watchluxury.application.model.request.CreateCommentPostRequest;
+import com.watchluxury.application.model.request.CreateCommentProductRequest;
+import com.watchluxury.application.repository.CommentRepository;
+import com.watchluxury.application.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

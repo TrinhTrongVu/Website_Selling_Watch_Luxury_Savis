@@ -1,6 +1,6 @@
-package com.watch_luxury.application.repository;
+package com.watchluxury.application.repository;
 
-import com.watch_luxury.application.entity.Image;
+import com.watchluxury.application.entity.Image;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

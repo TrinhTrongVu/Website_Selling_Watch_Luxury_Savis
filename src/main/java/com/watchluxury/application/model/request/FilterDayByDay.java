@@ -1,4 +1,4 @@
-package com.watch_luxury.application.model.request;
+package com.watchluxury.application.model.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

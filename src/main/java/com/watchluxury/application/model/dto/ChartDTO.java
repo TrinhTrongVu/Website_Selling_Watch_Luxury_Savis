@@ -1,4 +1,4 @@
-package com.watch_luxury.application.model.dto;
+package com.watchluxury.application.model.dto;
 
 import lombok.Getter;
 import lombok.Setter;

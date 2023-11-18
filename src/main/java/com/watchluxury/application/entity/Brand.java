@@ -1,7 +1,7 @@
-package com.watch_luxury.application.entity;
+package com.watchluxury.application.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.watch_luxury.application.model.dto.ChartDTO;
+import com.watchluxury.application.model.dto.ChartDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

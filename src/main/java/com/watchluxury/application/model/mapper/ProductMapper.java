@@ -1,11 +1,11 @@
-package com.watch_luxury.application.model.mapper;
+package com.watchluxury.application.model.mapper;
 
 import com.github.slugify.Slugify;
-import com.watch_luxury.application.entity.Brand;
-import com.watch_luxury.application.entity.Category;
-import com.watch_luxury.application.entity.Product;
-import com.watch_luxury.application.model.dto.ProductDTO;
-import com.watch_luxury.application.model.request.CreateProductRequest;
+import com.watchluxury.application.entity.Brand;
+import com.watchluxury.application.entity.Category;
+import com.watchluxury.application.entity.Product;
+import com.watchluxury.application.model.dto.ProductDTO;
+import com.watchluxury.application.model.request.CreateProductRequest;
 
 import java.util.ArrayList;
 

@@ -1,27 +1,27 @@
-package com.watch_luxury.application.service.impl;
+package com.watchluxury.application.service.impl;
 
-import com.watch_luxury.application.entity.Product;
-import com.watch_luxury.application.entity.ProductSize;
-import com.watch_luxury.application.entity.Promotion;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.exception.InternalServerException;
-import com.watch_luxury.application.exception.NotFoundException;
-import com.watch_luxury.application.model.dto.DetailProductInfoDTO;
-import com.watch_luxury.application.model.dto.PageableDTO;
-import com.watch_luxury.application.model.dto.ProductInfoDTO;
-import com.watch_luxury.application.model.dto.ShortProductInfoDTO;
-import com.watch_luxury.application.model.mapper.ProductMapper;
-import com.watch_luxury.application.model.request.CreateProductRequest;
-import com.watch_luxury.application.model.request.CreateSizeCountRequest;
-import com.watch_luxury.application.model.request.FilterProductRequest;
-import com.watch_luxury.application.model.request.UpdateFeedBackRequest;
-import com.watch_luxury.application.repository.OrderRepository;
-import com.watch_luxury.application.repository.ProductRepository;
-import com.watch_luxury.application.repository.ProductSizeRepository;
-import com.watch_luxury.application.repository.PromotionRepository;
-import com.watch_luxury.application.service.ProductService;
-import com.watch_luxury.application.service.PromotionService;
-import com.watch_luxury.application.utils.PageUtil;
+import com.watchluxury.application.entity.Product;
+import com.watchluxury.application.entity.ProductSize;
+import com.watchluxury.application.entity.Promotion;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.exception.InternalServerException;
+import com.watchluxury.application.exception.NotFoundException;
+import com.watchluxury.application.model.dto.DetailProductInfoDTO;
+import com.watchluxury.application.model.dto.PageableDTO;
+import com.watchluxury.application.model.dto.ProductInfoDTO;
+import com.watchluxury.application.model.dto.ShortProductInfoDTO;
+import com.watchluxury.application.model.mapper.ProductMapper;
+import com.watchluxury.application.model.request.CreateProductRequest;
+import com.watchluxury.application.model.request.CreateSizeCountRequest;
+import com.watchluxury.application.model.request.FilterProductRequest;
+import com.watchluxury.application.model.request.UpdateFeedBackRequest;
+import com.watchluxury.application.repository.OrderRepository;
+import com.watchluxury.application.repository.ProductRepository;
+import com.watchluxury.application.repository.ProductSizeRepository;
+import com.watchluxury.application.repository.PromotionRepository;
+import com.watchluxury.application.service.ProductService;
+import com.watchluxury.application.service.PromotionService;
+import com.watchluxury.application.utils.PageUtil;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -35,7 +35,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
 
-import static com.watch_luxury.application.config.Contant.*;
+import static com.watchluxury.application.config.Contant.*;
 
 @Component
 public class ProductServiceImpl implements ProductService {

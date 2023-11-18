@@ -1,4 +1,4 @@
-package com.watch_luxury.application.model.dto;
+package com.watchluxury.application.model.dto;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

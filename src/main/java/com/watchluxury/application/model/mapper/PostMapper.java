@@ -1,4 +1,4 @@
-package com.watch_luxury.application.model.mapper;
+package com.watchluxury.application.model.mapper;
 
 public class PostMapper {
 }

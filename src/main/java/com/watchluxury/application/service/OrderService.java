@@ -1,11 +1,11 @@
-package com.watch_luxury.application.service;
+package com.watchluxury.application.service;
 
-import com.watch_luxury.application.entity.Order;
-import com.watch_luxury.application.model.dto.OrderDetailDTO;
-import com.watch_luxury.application.model.dto.OrderInfoDTO;
-import com.watch_luxury.application.model.request.CreateOrderRequest;
-import com.watch_luxury.application.model.request.UpdateDetailOrder;
-import com.watch_luxury.application.model.request.UpdateStatusOrderRequest;
+import com.watchluxury.application.entity.Order;
+import com.watchluxury.application.model.dto.OrderDetailDTO;
+import com.watchluxury.application.model.dto.OrderInfoDTO;
+import com.watchluxury.application.model.request.CreateOrderRequest;
+import com.watchluxury.application.model.request.UpdateDetailOrder;
+import com.watchluxury.application.model.request.UpdateStatusOrderRequest;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 

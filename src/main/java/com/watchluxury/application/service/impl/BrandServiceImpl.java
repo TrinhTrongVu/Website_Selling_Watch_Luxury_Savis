@@ -1,13 +1,13 @@
-package com.watch_luxury.application.service.impl;
+package com.watchluxury.application.service.impl;
 
-import com.watch_luxury.application.entity.Brand;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.exception.InternalServerException;
-import com.watch_luxury.application.exception.NotFoundException;
-import com.watch_luxury.application.model.mapper.BrandMapper;
-import com.watch_luxury.application.model.request.CreateBrandRequest;
-import com.watch_luxury.application.repository.BrandRepository;
-import com.watch_luxury.application.service.BrandService;
+import com.watchluxury.application.entity.Brand;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.exception.InternalServerException;
+import com.watchluxury.application.exception.NotFoundException;
+import com.watchluxury.application.model.mapper.BrandMapper;
+import com.watchluxury.application.model.request.CreateBrandRequest;
+import com.watchluxury.application.repository.BrandRepository;
+import com.watchluxury.application.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -19,7 +19,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
 
-import static com.watch_luxury.application.config.Contant.LIMIT_BRAND;
+import static com.watchluxury.application.config.Contant.LIMIT_BRAND;
 
 @Component
 public class BrandServiceImpl implements BrandService {

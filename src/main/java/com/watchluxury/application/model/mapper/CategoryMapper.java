@@ -1,9 +1,9 @@
-package com.watch_luxury.application.model.mapper;
+package com.watchluxury.application.model.mapper;
 
 import com.github.slugify.Slugify;
-import com.watch_luxury.application.entity.Category;
-import com.watch_luxury.application.model.dto.CategoryDTO;
-import com.watch_luxury.application.model.request.CreateCategoryRequest;
+import com.watchluxury.application.entity.Category;
+import com.watchluxury.application.model.dto.CategoryDTO;
+import com.watchluxury.application.model.request.CreateCategoryRequest;
 
 import java.sql.Timestamp;
 

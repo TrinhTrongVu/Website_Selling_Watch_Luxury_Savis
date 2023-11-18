@@ -1,13 +1,13 @@
-package com.watch_luxury.application.service.impl;
+package com.watchluxury.application.service.impl;
 
-import com.watch_luxury.application.entity.Category;
-import com.watch_luxury.application.exception.BadRequestException;
-import com.watch_luxury.application.exception.InternalServerException;
-import com.watch_luxury.application.exception.NotFoundException;
-import com.watch_luxury.application.model.mapper.CategoryMapper;
-import com.watch_luxury.application.model.request.CreateCategoryRequest;
-import com.watch_luxury.application.repository.CategoryRepository;
-import com.watch_luxury.application.service.CategoryService;
+import com.watchluxury.application.entity.Category;
+import com.watchluxury.application.exception.BadRequestException;
+import com.watchluxury.application.exception.InternalServerException;
+import com.watchluxury.application.exception.NotFoundException;
+import com.watchluxury.application.model.mapper.CategoryMapper;
+import com.watchluxury.application.model.request.CreateCategoryRequest;
+import com.watchluxury.application.repository.CategoryRepository;
+import com.watchluxury.application.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
 import java.sql.Timestamp;
 import java.util.*;
 
-import static com.watch_luxury.application.config.Contant.LIMIT_CATEGORY;
+import static com.watchluxury.application.config.Contant.LIMIT_CATEGORY;
 
 @Component
 public class CategoryServiceImpl implements CategoryService {

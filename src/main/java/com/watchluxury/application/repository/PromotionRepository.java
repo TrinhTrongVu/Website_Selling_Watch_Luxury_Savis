@@ -1,6 +1,6 @@
-package com.watch_luxury.application.repository;
+package com.watchluxury.application.repository;
 
-import com.watch_luxury.application.entity.Promotion;
+import com.watchluxury.application.entity.Promotion;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
