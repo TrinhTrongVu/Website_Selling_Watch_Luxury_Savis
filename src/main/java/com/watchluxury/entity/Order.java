@@ -47,7 +47,27 @@ import java.sql.Timestamp;
                 )
         }
 )
-
+@NamedNativeQuery(
+        name = "getListOrderOfPersonByStatus",
+        resultSetMapping = "orderInfoDTO",
+        query = "SELECT od.id, od.total_price, od.size size_vn, p.name product_name, (p.images ->> '$[0]') as product_img " +
+                "FROM orders od " +
+                "INNER JOIN product p " +
+                "ON od.product_id = p.id " +
+                "WHERE od.status = ?1 " +
+                "AND od.buyer =?2"
+)
+@NamedNativeQuery(
+        name = "userGetDetailById",
+        resultSetMapping = "orderDetailDto",
+        query = "SELECT orders.id, orders.total_price, orders.size size_vn, product.name product_name, orders.price as product_price, " +
+                "orders.receiver_name, orders.receiver_phone, orders.receiver_address, orders.status, " +
+                "product.images ->> \"$[0]\" as product_img " +
+                "FROM orders " +
+                "INNER JOIN product " +
+                "ON orders.product_id = product.id " +
+                "WHERE orders.id = ?1 AND orders.buyer = ?2"
+)
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -104,7 +124,5 @@ public class Order {
     @Type(type = "json")
     @Column(name = "promotion", columnDefinition = "json")
     private UsedPromotion promotion;
-
-
 
 }

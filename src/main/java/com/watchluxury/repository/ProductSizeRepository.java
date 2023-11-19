@@ -12,6 +12,7 @@ import java.util.List;
 @Repository
 public interface ProductSizeRepository extends JpaRepository<ProductSize,Long> {
 
+
     //Lấy size của sản phẩm
     @Query(nativeQuery = true,value = "SELECT ps.size FROM product_size ps WHERE ps.product_id = ?1 AND ps.quantity > 0")
     List<Integer> findAllSizeOfProduct(String id);
@@ -33,7 +34,6 @@ public interface ProductSizeRepository extends JpaRepository<ProductSize,Long> {
     @Modifying
     @Query(nativeQuery = true, value = "Update product_size set quantity = quantity + 1 where product_id = ?1 and size = ?2")
     public void plusOneProductBySize(String id, int size);
-
 
     @Transactional
     @Modifying

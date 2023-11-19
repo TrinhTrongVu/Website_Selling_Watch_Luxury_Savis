@@ -216,7 +216,6 @@ public class Product {
     )
     private List<Category> categories;
 
-
     @OneToMany(mappedBy = "product")
     private List<Comment> comments;
 

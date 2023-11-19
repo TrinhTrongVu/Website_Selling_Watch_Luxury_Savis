@@ -13,7 +13,6 @@ import java.util.List;
 
 @Repository
 public interface PostRepository extends JpaRepository<Post, Long> {
-
     @Query(nativeQuery = true, name = "adminGetListPost")
     List<PostDTO> adminGetListPost(@Param("title") String title, @Param("status") String status, @Param("limit") int limit, @Param("offset") int offset);
 
