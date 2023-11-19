@@ -26,16 +26,7 @@ import java.sql.Timestamp;
         }
 )
 
-@NamedNativeQuery(
-        name = "getStatistic30Day",
-        resultSetMapping = "statisticDTO",
-        query = "SELECT s.sales, s.profit, s.quantity, date_format(s.created_at,'%Y-%m-%d') as createdAt FROM statistic s WHERE date_format(s.created_at,'%Y-%m-%d') BETWEEN DATE_SUB(NOW(), INTERVAL 30 DAY) AND NOW() ORDER BY createdAt ASC "
-)
-@NamedNativeQuery(
-        name = "getStatisticDayByDay",
-        resultSetMapping = "statisticDTO",
-        query = "SELECT s.sales, s.profit, s.quantity, date_format(s.created_at,'%Y-%m-%d') as createdAt FROM statistic s WHERE date_format(s.created_at,'%Y-%m-%d') >=?1 AND date_format(s.created_at,'%Y-%m-%d') <=?2 ORDER BY createdAt ASC "
-)
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter

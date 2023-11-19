@@ -23,7 +23,12 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
             "AND c.status LIKE CONCAT('%',?3,'%')", nativeQuery = true)
     Page<Category> adminGetListCategory(String id, String name, String status, Pageable pageable);
 
-    @Query(name = "getProductOrderCategories",nativeQuery = true)
+    @Query(value = "select  c.name as label, count(o.quantity) as value from category c " +
+            "inner join product_category pc on pc.category_id = c.id " +
+            "inner join product p on p.id = pc.product_id " +
+            "inner join orders o on o.product_id = p.id " +
+            "where o.status = 3 " +
+            "group by c.id ",nativeQuery = true)
     List<ChartDTO> getListProductOrderCategories();
 
 
